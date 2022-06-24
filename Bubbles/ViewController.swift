@@ -6,12 +6,14 @@
 //
 
 import UIKit
-
+struct Message {
+  var name: String
+}
 class ViewController: UIViewController {
 
+  private var messages: [Message] = []
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
   }
 
 
